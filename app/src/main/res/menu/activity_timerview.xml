@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/about"
+        android:enabled="true"
+        android:icon="@drawable/about"
+        android:title="About"
+         />
+    <item
+        android:id="@+id/settings"
+        android:enabled="true"
+        android:icon="@drawable/colorchange"
+        android:title="settings"
+        android:visible="true"
+        app:showAsAction="always|withText" />
+    <item
+        android:id="@+id/clock"
+        android:icon="@drawable/clock"
+        android:title="Clock"
+        app:showAsAction="always|withText" />
+
+</menu>
